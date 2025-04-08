@@ -1,0 +1,245 @@
+.card {
+    width: 250px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card-image{
+
+    height: 200px;
+    background-image: url(../assets/istockphoto-608540602-612x612.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.card-content{
+    padding: 25px;
+    
+}
+
+.card-title{
+    color: #0a0e13;
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.pre-titulo {
+    color: grey;
+    font-size: 13px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;  
+}
+
+
+.card-description{
+    color: #7f8c8d;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 2px;
+    left: 10px;
+}
+
+.preco-pessoa{
+    display: flex;
+    color: #7f8c8d;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    margin-bottom: 2px;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+
+    
+}
+
+
+
+.condicoes {
+    display: flex;
+    width: 83px;
+    height: 25px;
+    background-color: #f2f2f2; 
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 6px; 
+    border: 1px solid #ccc; 
+    margin-bottom: 10px;
+    margin-top: 10;
+}
+.nota  {
+    display: flex;
+    width: 35px;
+    height: 25px;
+    background-color: #03A691; 
+    color: #fcf7f7; 
+    font-size: 10px; 
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 6px; 
+    margin-bottom: 10px;
+    margin-top: 10;
+}
+
+.img-descr{
+    display: flex;
+    width: 130px;
+    height: 25px;
+    background-color: #3F95FA; 
+    color: #fcf7f7; 
+    font-size: 12px; 
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 6px; 
+    position: absolute;
+    bottom: -10px;
+    right: 100px;
+    margin-top: 10;
+}
+
+.card-preco{
+    display: flex; 
+    align-items: flex-start;
+    gap: 5px; 
+}
+
+.moeda{
+    font-size: 14px; 
+    color: #555; 
+    margin: 28px 0 0; 
+}
+.quantia {
+    font-size: 35px; 
+    color: #000; 
+    align-self: flex-start;
+    
+}
+.card-separator {
+    width: 100%;
+    height: 1px; 
+    background: rgb(230, 228, 228);
+
+    margin-top: 10px; 
+    margin-bottom: -3px; 
+    margin-bottom: 15px;
+}
+
+
+.card-preco2{
+    display: flex; 
+    align-items: center;
+    gap: 5px;
+}
+
+.moeda2{
+    font-size: 14px; 
+    color: #555; 
+    margin: 28px 0 0; 
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.quantia2 {
+    font-size: 35px;  
+    color: #000; 
+    margin: 0;
+    align-self: flex-start;
+    margin-bottom:  15px; ;
+    
+}
+
+.card-separator2{
+    width: 500%;
+    height: 1px; 
+    background: rgb(228, 230, 228);
+    margin-top: 7px; 
+    margin-bottom: -3px; 
+}
+
+
+
+.horizontal-card {
+    display: flex; 
+    width: 100%; 
+    max-width: 600px;
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    transition: transform 0.3s ease;
+    
+}
+
+.card-image2 img {
+    width: 200px; 
+    height: auto; 
+}
+
+.card-text2 {
+    padding: 20px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.card-text2 h2 {
+    font-size: 20px; 
+    margin-bottom: 10px; 
+    color: #333;
+}
+
+.card-text2 p {
+    font-size: 13px;
+    margin-bottom: 1px; 
+    color: #666; 
+
+}
+
+.card-text2 button {
+    background-color: #702acc;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: 10px;
+    width: 100px;
+    
+}
+
+.card-text2 button:hover {
+    background-color: #32125c; 
+}
+
+
+.horizontal-card:hover{
+    transform: translateY(-5px);
+}
+
+.card-detail-icon{
+    margin-right: 5px;
+    width: 60px;
+    height: 18px;
+    display: flex;
+    color: #FA8E04;
+}
+
+.estrelas{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    
+}
+
